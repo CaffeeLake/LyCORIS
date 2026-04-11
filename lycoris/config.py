@@ -21,6 +21,10 @@ FULL_UNET_MODULES = [
     "FinalLayer",  # lumina-image-2
     "QwenImageTransformerBlock",  # Qwen
     "ZImageTransformerBlock",
+    "Block",  # Anima
+    "PatchEmbed",  # Anima
+    "TimestepEmbedding",  # Anima
+    "LLMAdapterTransformerBlock",  # Anima
 ]
 
 FULL_UNET_NAMES = [
@@ -40,6 +44,10 @@ FULL_TEXT_ENCODER_MODULES = [
     "Gemma2FlashAttention2",
     "Gemma2SdpaAttention",
     "Gemma2MLP",
+    "Qwen3Attention",  # Anima / Qwen3
+    "Qwen3FlashAttention2",  # Anima / Qwen3
+    "Qwen3SdpaAttention",  # Anima / Qwen3
+    "Qwen3MLP",  # Anima / Qwen3
 ]
 
 
@@ -69,6 +77,10 @@ BUILTIN_PRESET_CONFIGS = {
             "FinalLayer",  # lumina-image-2
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
+            "Block",  # Anima
+            "PatchEmbed",  # Anima
+            "TimestepEmbedding",  # Anima
+            "LLMAdapterTransformerBlock",  # Anima
         ],
         unet_target_name=[
             "time_embedding.linear_1",
@@ -94,6 +106,10 @@ BUILTIN_PRESET_CONFIGS = {
             "FinalLayer",  # lumina-image-2
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
+            "Block",  # Anima
+            "PatchEmbed",  # Anima
+            "TimestepEmbedding",  # Anima
+            "LLMAdapterTransformerBlock",  # Anima
         ],
         unet_target_name=[],
         text_encoder_target_module=FULL_TEXT_ENCODER_MODULES,
@@ -141,6 +157,10 @@ BUILTIN_PRESET_CONFIGS = {
             "FinalLayer",  # lumina-image-2
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
+            "Block",  # Anima
+            "PatchEmbed",  # Anima
+            "TimestepEmbedding",  # Anima
+            "LLMAdapterTransformerBlock",  # Anima
         ],
         unet_target_name=[],
         text_encoder_target_module=[],
