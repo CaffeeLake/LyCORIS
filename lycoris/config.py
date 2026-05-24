@@ -18,7 +18,7 @@ FULL_UNET_MODULES = [
     "HunyuanVideoTransformerBlock",  # FramePack
     "HunyuanVideoSingleTransformerBlock",  # FramePack
     "JointTransformerBlock",  # lumina-image-2
-    "FinalLayer",  # lumina-image-2
+    "FinalLayer",  # lumina-image-2, Anima
     "QwenImageTransformerBlock",  # Qwen
     "ZImageTransformerBlock",
     "Block",  # Anima
@@ -74,7 +74,7 @@ BUILTIN_PRESET_CONFIGS = {
             "HunyuanVideoTransformerBlock",  # FramePack
             "HunyuanVideoSingleTransformerBlock",  # FramePack
             "JointTransformerBlock",  # lumina-image-2
-            "FinalLayer",  # lumina-image-2
+            "FinalLayer",  # lumina-image-2, Anima
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
             "Block",  # Anima
@@ -103,7 +103,7 @@ BUILTIN_PRESET_CONFIGS = {
             "HunyuanVideoTransformerBlock",  # FramePack
             "HunyuanVideoSingleTransformerBlock",  # FramePack
             "JointTransformerBlock",  # lumina-image-2
-            "FinalLayer",  # lumina-image-2
+            "FinalLayer",  # lumina-image-2, Anima
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
             "Block",  # Anima
@@ -154,7 +154,7 @@ BUILTIN_PRESET_CONFIGS = {
             "HunyuanVideoTransformerBlock",  # FramePack
             "HunyuanVideoSingleTransformerBlock",  # FramePack
             "JointTransformerBlock",  # lumina-image-2
-            "FinalLayer",  # lumina-image-2
+            "FinalLayer",  # lumina-image-2, Anima
             "QwenImageTransformerBlock",  # Qwen
             "ZImageTransformerBlock",
             "Block",  # Anima
